@@ -1,5 +1,5 @@
 # Search-Algorithm-Visualizer
 
-![](images/Path.png)
+![](images/Path.PNG)
 
-![](images/Search.png)
+![](images/Search.PNG)
