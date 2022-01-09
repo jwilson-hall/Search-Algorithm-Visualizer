@@ -55,8 +55,9 @@ namespace Search_Algorithms
             this.pnl_Grid.Size = new System.Drawing.Size(630, 426);
             this.pnl_Grid.TabIndex = 0;
             this.pnl_Grid.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Grid_Paint);
-            this.pnl_Grid.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnl_Grid_MouseClick);
+            this.pnl_Grid.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnl_Grid_MouseDown);
             this.pnl_Grid.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnl_Grid_MouseDown);
+            this.pnl_Grid.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pnl_Grid_MouseUp);
             // 
             // btn_Start_Algo
             // 
@@ -78,7 +79,7 @@ namespace Search_Algorithms
             // Program_Timer
             // 
             this.Program_Timer.Enabled = true;
-            this.Program_Timer.Interval = 1;
+            this.Program_Timer.Interval = 10;
             this.Program_Timer.Tick += new System.EventHandler(this.Program_Timer_Tick);
             // 
             // updown_numCols
@@ -87,6 +88,11 @@ namespace Search_Algorithms
             this.updown_numCols.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.updown_numCols.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.updown_numCols.Location = new System.Drawing.Point(16, 352);
+            this.updown_numCols.Minimum = new decimal(new int[] {
+            2,
+            0,
+            0,
+            0});
             this.updown_numCols.Name = "updown_numCols";
             this.updown_numCols.Size = new System.Drawing.Size(120, 19);
             this.updown_numCols.TabIndex = 2;

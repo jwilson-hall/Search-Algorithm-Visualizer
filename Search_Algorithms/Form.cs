@@ -33,16 +33,28 @@ namespace Search_Algorithms
         private void Program_Timer_Tick(object sender, EventArgs e)
         {
             milli_seconds += 1;
+            //Point relativePoint = Control.MousePosition;
+            Point relativePoint = pnl_Grid.PointToClient(Cursor.Position);
+            mouseDrawing(relativePoint);
+        }
+        private void pnl_Grid_MouseUp(object sender, MouseEventArgs e)
+        {
+            Program_Timer.Stop();
+        }
+        private void pnl_Grid_MouseDown(object sender, MouseEventArgs e)
+        {
+            Program_Timer.Start();
+            
         }
         //--------------------------------------------------------------
 
         //-----------------------Panel--------------------------------
         private void pnl_Grid_Paint(object sender, PaintEventArgs e)
         {
-            if (milli_seconds < 10)
+            if (milli_seconds < 2)
             {
                 Paint_Layout(Convert.ToInt32(updown_numCols.Value));
-
+                Program_Timer.Stop();
             }
         }
 
@@ -265,6 +277,8 @@ namespace Search_Algorithms
             Paint_Layout(gridSize);
         }
 
+        
+
         private void btn_start_location_Click(object sender, EventArgs e)
         {
             //printstats();
@@ -291,15 +305,20 @@ namespace Search_Algorithms
         private void pnl_Grid_MouseClick(object sender, MouseEventArgs e)
         {
             //printstats();
-            if (activeBrush!=null)
+            mouseDrawing(e.Location);
+            
+        }
+        private void mouseDrawing(Point e)
+        {
+            if (activeBrush != null)
             {
-                Point p = new Point(e.X,e.Y);
+                Point p = new Point(e.X, e.Y);
                 x = p.X;
                 y = p.Y;
                 x /= pnl_Grid.Width / Convert.ToInt32(updown_numCols.Value);
                 y /= pnl_Grid.Height / Convert.ToInt32(updown_numCols.Value);
                 Brush brush = activeBrush;
-                Pen pen = new Pen(brush,5);
+                Pen pen = new Pen(brush, 5);
                 float xSpace = pnl_Grid.Width / Convert.ToInt32(updown_numCols.Value);
                 float ySpace = pnl_Grid.Height / Convert.ToInt32(updown_numCols.Value);
                 var g = pnl_Grid.CreateGraphics();
@@ -309,10 +328,10 @@ namespace Search_Algorithms
                 try
                 {
                     //Console.WriteLine("X: " + gridX + " Y: " + gridY);
-                    
+
                     if (strActiveBrush == "start")
                     {
-                        
+
                         if (grid_Array[y, x] == 3)
                         {
                             endGoal = false;
@@ -373,14 +392,10 @@ namespace Search_Algorithms
                 }
                 catch (IndexOutOfRangeException)
                 {
-                 //do nothing
+                    //do nothing
                 }
-                
-            }
-        }
-        private void pnl_Grid_MouseDown(object sender, MouseEventArgs e)
-        {
 
+            }
         }
 
         //--------------------------------------------------------
