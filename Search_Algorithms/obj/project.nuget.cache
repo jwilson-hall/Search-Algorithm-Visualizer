@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "kKMaHEJJImkHBRV4bZRHfsPAharDynjfQslCHuwsyzgA/LOGaQvshSpGLf7S1YfxLE/+pqUI3LNauZwcL8R5zA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Joe\\source\\repos\\Search-Algorithm-Visualizer\\Search_Algorithms\\Search_Algorithms.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joe\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Joe\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Joe\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Joe\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
