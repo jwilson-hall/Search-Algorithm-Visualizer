@@ -79,7 +79,7 @@ namespace Search_Algorithms
             // Program_Timer
             // 
             this.Program_Timer.Enabled = true;
-            this.Program_Timer.Interval = 10;
+            this.Program_Timer.Interval = 5;
             this.Program_Timer.Tick += new System.EventHandler(this.Program_Timer_Tick);
             // 
             // updown_numCols

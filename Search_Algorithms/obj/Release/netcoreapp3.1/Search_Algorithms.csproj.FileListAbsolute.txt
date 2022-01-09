@@ -1,0 +1,16 @@
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\Search_Algorithms.exe
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\Search_Algorithms.deps.json
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\Search_Algorithms.runtimeconfig.json
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\Search_Algorithms.runtimeconfig.dev.json
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\Search_Algorithms.dll
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\Search_Algorithms.pdb
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.Main.resources
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.csproj.GenerateResource.cache
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.AssemblyInfoInputs.cache
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.AssemblyInfo.cs
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.dll
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.pdb
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.genruntimeconfig.cache
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\obj\Release\netcoreapp3.1\Search_Algorithms.csproj.AssemblyReference.cache

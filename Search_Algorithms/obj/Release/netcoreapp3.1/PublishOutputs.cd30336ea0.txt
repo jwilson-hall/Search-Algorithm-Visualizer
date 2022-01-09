@@ -1,0 +1,5 @@
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\publish\Search_Algorithms.exe
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\publish\Search_Algorithms.dll
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\publish\Search_Algorithms.deps.json
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\publish\Search_Algorithms.runtimeconfig.json
+C:\Users\Joe\source\repos\Search-Algorithm-Visualizer\Search_Algorithms\bin\Release\netcoreapp3.1\publish\Search_Algorithms.pdb
