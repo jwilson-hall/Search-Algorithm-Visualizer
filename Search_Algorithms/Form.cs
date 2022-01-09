@@ -29,9 +29,6 @@ namespace Search_Algorithms
         private void Main_Load(object sender, EventArgs e)
         {
             gridSize = Convert.ToInt32(updown_numCols.Value);
-
-            Console.WriteLine(grid_Array.GetLength(0));
-            Console.WriteLine(grid_Array.GetLength(1));
         }
         private void Program_Timer_Tick(object sender, EventArgs e)
         {
@@ -68,9 +65,8 @@ namespace Search_Algorithms
             gridSize = Convert.ToInt32(updown_numCols.Value);
             resetValues();
             Paint_Layout(gridSize);
-            drawStartEnd(grid_Array);
         }
-
+        
         //--------------------Functions----------------------------
         private void Paint_Layout(int numberOfCols)
         {
@@ -204,7 +200,6 @@ namespace Search_Algorithms
                         g.FillRectangle(brush, new Rectangle(gridX + 1, gridY + 1, Convert.ToInt32(xSpace) - 1, Convert.ToInt32(ySpace) - 1));
                     }
                 }
-                Console.Write(Environment.NewLine + Environment.NewLine);
             }
         }
         private void printstats()
@@ -272,7 +267,7 @@ namespace Search_Algorithms
 
         private void btn_start_location_Click(object sender, EventArgs e)
         {
-            printstats();
+            //printstats();
             if (start != true)
             {
                 activeBrush = new SolidBrush(Color.DodgerBlue);
@@ -282,7 +277,7 @@ namespace Search_Algorithms
         }
         private void btn_end_location_Click(object sender, EventArgs e)
         {
-            printstats();
+            //printstats();
             if (endGoal != true)
             {
                 activeBrush = new SolidBrush(Color.Firebrick);
@@ -295,7 +290,7 @@ namespace Search_Algorithms
         ////--------------------Mouse----------------------------
         private void pnl_Grid_MouseClick(object sender, MouseEventArgs e)
         {
-            printstats();
+            //printstats();
             if (activeBrush!=null)
             {
                 Point p = new Point(e.X,e.Y);
@@ -313,7 +308,7 @@ namespace Search_Algorithms
 
                 try
                 {
-                    Console.WriteLine("X: " + gridX + " Y: " + gridY);
+                    //Console.WriteLine("X: " + gridX + " Y: " + gridY);
                     
                     if (strActiveBrush == "start")
                     {
